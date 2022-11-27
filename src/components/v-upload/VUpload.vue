@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    vue + vite + ts admin
+    Upload File
   </div>
 </template>
 

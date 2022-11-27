@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import type { Ref } from 'vue'
-import Upload from './components/v-upload/VUpload.vue'
+import VUpload from '@/components/v-upload/VUpload.vue'
 const name: Ref<string> = ref('hhh')
 
 interface Res {
@@ -21,7 +21,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div> vue3 </div>
+  <div>
+    <VUpload />
+  </div>
 </template>
 
 <style lang="less" scoped>
