@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@types/node": "^18.11.9",
     "vue": "^3.2.41"
   },
   "devDependencies": {

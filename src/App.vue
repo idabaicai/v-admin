@@ -22,10 +22,26 @@ onMounted(() => {
 
 <template>
   <div>
-    <VUpload />
+    <p class="primary">
+      primary color
+    </p>
+    <p class="success">
+      success color
+    </p>
+    <p class="info">
+      info color
+    </p>
+    <p class="warning">
+      waring color
+    </p>
+    <p class="danger">
+      danger color
+    </p>
   </div>
 </template>
 
 <style lang="less" scoped>
-
+p {
+  // color: var(--primary-color);
+}
 </style>
